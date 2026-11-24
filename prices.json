@@ -1,0 +1,37 @@
+{
+  "source": "https://public-data.tradeskillmaster.com/forever/eu/region/items.csv",
+  "sourceLastModified": "Tue, 24 Nov 2026 00:37:26 GMT",
+  "fetchedAt": "2026-11-24T07:14:09.787856Z",
+  "items": [
+    {
+      "itemId": 12360,
+      "name": "Arcanite Bar",
+      "marketValue": 481483.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 15409,
+      "name": "Refined Deeprock Salt",
+      "marketValue": 456838.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 12359,
+      "name": "Thorium Bar",
+      "marketValue": 2700.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 12363,
+      "name": "Arcane Crystal",
+      "marketValue": 162876.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 8150,
+      "name": "Deeprock Salt",
+      "marketValue": 415.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    }
+  ]
+}
