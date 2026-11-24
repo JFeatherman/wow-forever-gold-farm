@@ -1,7 +1,7 @@
 {
   "source": "https://public-data.tradeskillmaster.com/forever/eu/region/items.csv",
   "sourceLastModified": "Tue, 24 Nov 2026 00:37:26 GMT",
-  "fetchedAt": "2026-11-24T07:14:09.787856Z",
+  "fetchedAt": "2026-11-24T07:25:30.463016Z",
   "items": [
     {
       "itemId": 12360,
@@ -31,6 +31,18 @@
       "itemId": 8150,
       "name": "Deeprock Salt",
       "marketValue": 415.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 14342,
+      "name": "Mooncloth",
+      "marketValue": 442331.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 14256,
+      "name": "Felcloth",
+      "marketValue": 7702.0,
       "updatedAt": "2026-11-23T00:59:07Z"
     }
   ]

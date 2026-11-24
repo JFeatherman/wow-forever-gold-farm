@@ -24,6 +24,11 @@ jobs:
           python-version: '3.x'
       - name: Test price parser
         run: python3 -m unittest discover -s tests -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test calculator handlers
+        run: node --test tests/calculator.test.cjs
       - run: python3 scripts/update_prices.py
       - name: Commit changed snapshot only
         run: |

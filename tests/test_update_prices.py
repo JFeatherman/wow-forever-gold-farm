@@ -16,7 +16,7 @@ def fixture():
 
 class PricesTest(unittest.TestCase):
     def test_valid(self):
-        self.assertEqual(len(parse_csv(fixture())), 5)
+        self.assertEqual(len(parse_csv(fixture())), len(ITEMS))
 
     def test_invalid(self):
         good = fixture()

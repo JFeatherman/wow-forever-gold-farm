@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish a validated, five-item TSM Forever EU snapshot (prices in copper)."""
+"""Publish a validated, seven-item TSM Forever EU snapshot (prices in copper)."""
 import argparse
 import csv
 from datetime import datetime, timezone
@@ -14,7 +14,7 @@ import urllib.request
 import urllib.error
 
 SOURCE = 'https://public-data.tradeskillmaster.com/forever/eu/region/items.csv'
-ITEMS = {12360: 'Arcanite Bar', 15409: 'Refined Deeprock Salt', 12359: 'Thorium Bar', 12363: 'Arcane Crystal', 8150: 'Deeprock Salt'}
+ITEMS = {12360: 'Arcanite Bar', 15409: 'Refined Deeprock Salt', 12359: 'Thorium Bar', 12363: 'Arcane Crystal', 8150: 'Deeprock Salt', 14342: 'Mooncloth', 14256: 'Felcloth'}
 HEADERS = ['itemId', 'name', 'marketValue', 'historical', 'avgSalePrice', 'saleRate', 'soldPerDay', 'updatedAt']
 
 
