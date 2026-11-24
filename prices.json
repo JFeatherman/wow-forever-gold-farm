@@ -1,7 +1,55 @@
 {
   "source": "https://public-data.tradeskillmaster.com/forever/eu/region/items.csv",
+  "subsetVersion": 2,
+  "requestedItemIds": [
+    765,
+    783,
+    785,
+    2318,
+    2319,
+    2320,
+    2321,
+    2325,
+    2447,
+    2449,
+    2450,
+    2934,
+    3356,
+    3357,
+    3358,
+    3371,
+    3372,
+    3575,
+    3820,
+    4232,
+    4234,
+    4235,
+    4289,
+    4291,
+    4304,
+    4340,
+    4625,
+    6359,
+    7071,
+    8150,
+    8170,
+    8831,
+    8838,
+    8839,
+    8925,
+    9262,
+    12359,
+    12360,
+    12363,
+    13422,
+    14047,
+    14256,
+    14341,
+    14342,
+    15409
+  ],
   "sourceLastModified": "Tue, 24 Nov 2026 00:37:26 GMT",
-  "fetchedAt": "2026-11-24T07:25:30.463016Z",
+  "fetchedAt": "2026-11-24T20:30:00.379901Z",
   "items": [
     {
       "itemId": 12360,
@@ -43,6 +91,234 @@
       "itemId": 14256,
       "name": "Felcloth",
       "marketValue": 7702.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 2934,
+      "name": "Ruined Leather Scraps",
+      "marketValue": 17.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 2318,
+      "name": "Light Leather",
+      "marketValue": 41.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 783,
+      "name": "Light Hide",
+      "marketValue": 117.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 2319,
+      "name": "Medium Leather",
+      "marketValue": 115.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 4232,
+      "name": "Medium Hide",
+      "marketValue": 354.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 4235,
+      "name": "Heavy Hide",
+      "marketValue": 1393.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 4289,
+      "name": "Salt",
+      "marketValue": 66.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 2320,
+      "name": "Coarse Thread",
+      "marketValue": 23.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 2321,
+      "name": "Fine Thread",
+      "marketValue": 119.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 4340,
+      "name": "Gray Dye",
+      "marketValue": 443.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 4234,
+      "name": "Heavy Leather",
+      "marketValue": 262.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 7071,
+      "name": "Iron Buckle",
+      "marketValue": 214.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 4304,
+      "name": "Thick Leather",
+      "marketValue": 694.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 4291,
+      "name": "Silken Thread",
+      "marketValue": 533.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 8170,
+      "name": "Rugged Leather",
+      "marketValue": 1954.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 2325,
+      "name": "Black Dye",
+      "marketValue": 1030.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 14341,
+      "name": "Rune Thread",
+      "marketValue": 4772.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 14047,
+      "name": "Runecloth",
+      "marketValue": 655.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 765,
+      "name": "Silverleaf",
+      "marketValue": 24.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 2447,
+      "name": "Peacebloom",
+      "marketValue": 67.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 3371,
+      "name": "Empty Vial",
+      "marketValue": 11.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 785,
+      "name": "Mageroyal",
+      "marketValue": 80.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 2449,
+      "name": "Earthroot",
+      "marketValue": 97.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 2450,
+      "name": "Briarthorn",
+      "marketValue": 140.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 3820,
+      "name": "Stranglekelp",
+      "marketValue": 257.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 6359,
+      "name": "Firefin Snapper",
+      "marketValue": 40.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 3356,
+      "name": "Kingsblood",
+      "marketValue": 108.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 3372,
+      "name": "Leaded Vial",
+      "marketValue": 84.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 3357,
+      "name": "Liferoot",
+      "marketValue": 248.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 8839,
+      "name": "Blindweed",
+      "marketValue": 1375.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 3358,
+      "name": "Khadgar's Whisker",
+      "marketValue": 442.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 8925,
+      "name": "Crystal Vial",
+      "marketValue": 554.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 13422,
+      "name": "Stonescale Eel",
+      "marketValue": 189.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 8838,
+      "name": "Sungrass",
+      "marketValue": 1661.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 3575,
+      "name": "Iron Bar",
+      "marketValue": 350.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 9262,
+      "name": "Black Vitriol",
+      "marketValue": 1191.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 8831,
+      "name": "Purple Lotus",
+      "marketValue": 786.0,
+      "updatedAt": "2026-11-23T00:59:07Z"
+    },
+    {
+      "itemId": 4625,
+      "name": "Firebloom",
+      "marketValue": 1371.0,
       "updatedAt": "2026-11-23T00:59:07Z"
     }
   ]

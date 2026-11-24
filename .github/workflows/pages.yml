@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: '22'
       - name: Test calculator handlers
-        run: node --test tests/calculator.test.cjs
+        run: node --test tests/*.test.cjs
       - run: python3 scripts/update_prices.py
       - name: Commit changed snapshot only
         run: |
