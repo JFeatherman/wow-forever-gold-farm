@@ -48,278 +48,278 @@
     14342,
     15409
   ],
-  "sourceLastModified": "Tue, 24 Nov 2026 00:37:26 GMT",
-  "fetchedAt": "2026-11-24T20:30:00.379901Z",
+  "sourceLastModified": "Wed, 25 Nov 2026 00:37:27 GMT",
+  "fetchedAt": "2026-11-25T12:55:43.172340Z",
   "items": [
     {
       "itemId": 12360,
       "name": "Arcanite Bar",
-      "marketValue": 481483.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 457743.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 15409,
       "name": "Refined Deeprock Salt",
-      "marketValue": 456838.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 453542.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 12359,
       "name": "Thorium Bar",
-      "marketValue": 2700.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 2567.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 12363,
       "name": "Arcane Crystal",
-      "marketValue": 162876.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 159254.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 8150,
       "name": "Deeprock Salt",
-      "marketValue": 415.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 409.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 14342,
       "name": "Mooncloth",
-      "marketValue": 442331.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 449116.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 14256,
       "name": "Felcloth",
-      "marketValue": 7702.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 7101.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 2934,
       "name": "Ruined Leather Scraps",
       "marketValue": 17.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 2318,
       "name": "Light Leather",
-      "marketValue": 41.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 43.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 783,
       "name": "Light Hide",
       "marketValue": 117.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 2319,
       "name": "Medium Leather",
-      "marketValue": 115.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 116.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 4232,
       "name": "Medium Hide",
-      "marketValue": 354.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 362.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 4235,
       "name": "Heavy Hide",
-      "marketValue": 1393.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 1367.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 4289,
       "name": "Salt",
-      "marketValue": 66.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 67.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 2320,
       "name": "Coarse Thread",
-      "marketValue": 23.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 26.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 2321,
       "name": "Fine Thread",
-      "marketValue": 119.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 117.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 4340,
       "name": "Gray Dye",
-      "marketValue": 443.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 422.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 4234,
       "name": "Heavy Leather",
-      "marketValue": 262.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 261.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 7071,
       "name": "Iron Buckle",
-      "marketValue": 214.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 195.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 4304,
       "name": "Thick Leather",
-      "marketValue": 694.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 708.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 4291,
       "name": "Silken Thread",
-      "marketValue": 533.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 544.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 8170,
       "name": "Rugged Leather",
-      "marketValue": 1954.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 1975.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 2325,
       "name": "Black Dye",
-      "marketValue": 1030.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 1049.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 14341,
       "name": "Rune Thread",
-      "marketValue": 4772.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 5069.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 14047,
       "name": "Runecloth",
-      "marketValue": 655.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 618.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 765,
       "name": "Silverleaf",
-      "marketValue": 24.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 25.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 2447,
       "name": "Peacebloom",
-      "marketValue": 67.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 72.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 3371,
       "name": "Empty Vial",
       "marketValue": 11.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 785,
       "name": "Mageroyal",
-      "marketValue": 80.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 82.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 2449,
       "name": "Earthroot",
-      "marketValue": 97.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 109.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 2450,
       "name": "Briarthorn",
-      "marketValue": 140.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 153.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 3820,
       "name": "Stranglekelp",
       "marketValue": 257.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 6359,
       "name": "Firefin Snapper",
-      "marketValue": 40.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 36.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 3356,
       "name": "Kingsblood",
-      "marketValue": 108.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 112.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 3372,
       "name": "Leaded Vial",
-      "marketValue": 84.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 79.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 3357,
       "name": "Liferoot",
-      "marketValue": 248.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 259.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 8839,
       "name": "Blindweed",
-      "marketValue": 1375.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 1386.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 3358,
       "name": "Khadgar's Whisker",
-      "marketValue": 442.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 438.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 8925,
       "name": "Crystal Vial",
-      "marketValue": 554.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 541.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 13422,
       "name": "Stonescale Eel",
-      "marketValue": 189.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 187.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 8838,
       "name": "Sungrass",
-      "marketValue": 1661.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 1662.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 3575,
       "name": "Iron Bar",
       "marketValue": 350.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 9262,
       "name": "Black Vitriol",
-      "marketValue": 1191.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 1221.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 8831,
       "name": "Purple Lotus",
-      "marketValue": 786.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 782.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     },
     {
       "itemId": 4625,
       "name": "Firebloom",
-      "marketValue": 1371.0,
-      "updatedAt": "2026-11-23T00:59:07Z"
+      "marketValue": 1358.0,
+      "updatedAt": "2026-11-24T00:57:03Z"
     }
   ]
 }
