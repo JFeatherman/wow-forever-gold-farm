@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WoW Forever | Bank-alt</title><style>
+:root{color-scheme:dark;--gold:#e4bd70;--muted:#b0a18b;--line:#514027;--panel:#1c1915}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#362819 0,#14120f 40%,#0c0c0d 85%);color:#e9e0d0;font:15px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:28px 18px 50px}header{text-align:center;border:1px solid #98713d;background:radial-gradient(ellipse at top,#514022,#1c1812 70%);padding:42px 18px 32px;position:relative;box-shadow:0 0 0 4px #17130e,0 12px 38px #0008}header:before,header:after{content:'◆';position:absolute;color:var(--gold);font-size:22px;top:8px}header:before{left:12px}header:after{right:12px}.eyebrow{color:var(--gold);letter-spacing:.32em;font-size:12px;font-weight:bold}h1,h2,h3{font-family:Georgia,serif;color:var(--gold);line-height:1.2}h1{font-size:clamp(32px,7vw,62px);margin:10px 0;text-shadow:0 3px 2px #000}header p{color:#d2c2a7;margin:12px auto 0;max-width:620px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px 0}.stat,section{border:1px solid var(--line);background:linear-gradient(145deg,#252018,var(--panel));box-shadow:inset 0 0 0 3px #100f0d55}.stat{text-align:center;padding:16px 6px}.stat strong{display:block;font: bold 30px Georgia;color:var(--gold)}.stat small{color:var(--muted)}section{padding:22px;margin:16px 0;border-radius:3px}h2{font-size:24px;margin:0 0 16px;display:flex;align-items:center;gap:12px}h2 span{font: bold 14px Georgia;border:1px solid #a67e43;color:#f4d391;width:32px;height:32px;display:grid;place-items:center;flex-shrink:0;background:#342615}p{margin:8px 0 12px}ul,ol{padding-left:23px;margin:8px 0}li{margin:5px 0}li::marker{color:var(--gold)}.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:10px 12px;border-bottom:1px solid #493924}th{color:var(--gold);background:#30271b;font-size:12px;text-transform:uppercase;letter-spacing:.06em}td:not(:first-child){font-variant-numeric:tabular-nums}tbody tr:nth-child(even){background:#ffffff03}.alchemy{color:#9fd29a}.leather{color:#d6ac78}.study{color:#bba7e9}.note{border-left:3px solid #a48146;padding:10px 14px;background:#b58a2310;color:#d8c6a7;margin-top:15px}.check{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid #403423;cursor:pointer}.check input{accent-color:#c5a25e;width:19px;height:19px;flex-shrink:0}.check:has(input:checked) span{text-decoration:line-through;color:#958a78}.progress{height:8px;background:#0d0d0c;border:1px solid #493924;margin:10px 0 14px}.progress div{height:100%;background:linear-gradient(90deg,#8b622b,#e4bd70);width:0;transition:width .2s}button,input[type=number]{background:#302417;border:1px solid #9a763e;color:#f1d79d;padding:8px 14px;border-radius:3px;font:inherit}button{cursor:pointer}button:hover{background:#49351e}.row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}a{color:#e1bb77}footer{color:var(--muted);font-size:12px;text-align:center;padding:15px} .formula{font-weight:bold;color:var(--gold)}@media(max-width:550px){section{padding:15px}th,td{padding:8px}.stat strong{font-size:25px}.stat small{font-size:11px}}@media print{body{background:white;color:#222}section,.stat,header{background:white;box-shadow:none;color:#222}h1,h2,h3,.eyebrow,.stat strong,th,a,.formula{color:#735019}header p,.note,footer,.stat small{color:#444}button{display:none}th{background:#eee}}
+h2{display:block}header{padding:26px 16px}h1{font-size:clamp(30px,6vw,48px)}.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:14px}label{display:flex;flex-direction:column;gap:5px}input,select{width:100%;min-width:0;background:#302417;border:1px solid #9a763e;color:#f1d79d;padding:8px;border-radius:3px;font:inherit}small,.muted{color:var(--muted)}:focus-visible{outline:2px solid var(--gold);outline-offset:3px}input[aria-invalid=true]{border-color:#ffae88}.price-input{width:125px}.prices td:first-child{min-width:160px}.prices small{display:block}.results{border-left:3px solid var(--gold);padding:10px 14px;margin:16px 0;background:#100f0d55}.results p{margin:5px 0}.results strong{color:var(--gold)}summary{cursor:pointer;color:var(--gold);font-weight:600;padding:10px 0}details{margin:12px 0}caption{text-align:left;color:var(--muted);padding:8px 0}#price-status{overflow-wrap:anywhere}.route li{margin:12px 0}.keep{color:#b4d8a5}code{overflow-wrap:anywhere}button{margin:8px 0}noscript{color:#ffceab}
+</style></head><body><main>
+<p><a href="index.html">← Goldfarm &amp; Alt voorbereiden</a></p>
+<header><div class="eyebrow">WOW FOREVER · BANK-ALT</div><h1>Wat mag ik maximaal betalen?</h1><p>Een theoretische inkoopgrens voor groene armor, met TSM-prijzen en een concrete route naar Enchanting 140.</p></header>
+<noscript>Schakel JavaScript in voor prijzen, berekeningen en de materiaalroute.</noscript>
+<section aria-labelledby="buy-title"><h2 id="buy-title">Groene armor inkopen</h2>
+<p><strong>Controleer het echte itemtype én itemlevel (ilvl).</strong> Alleen groene armor in de acht onderstaande brackets. Geen wapens of blauwe items. Required level is slechts een bronreferentie: deze tool rekent dat nooit automatisch om naar ilvl. Afwijkende Forever-items kunnen anders disenchanten.</p>
+<div class="fields">
+<label for="fee">AH-kosten (%)<input id="fee" type="number" min="0" max="100" step="any" value="5"></label>
+<label for="buffer">Veiligheidsbuffer (%)<input id="buffer" type="number" min="0" max="100" step="any" value="20"><small>20% is een aanbeveling, geen berekende zekerheid.</small></label>
+<label for="count">Items per sessie<input id="count" type="number" min="1" step="1" value="50"><small>50 is een plangrootte, geen voldoende RNG-steekproef.</small></label>
+<label for="other">Overige sessiekosten (gold)<input id="other" type="number" min="0" step="any" value="0"><small>Handmatig; standaard 0 / niet inbegrepen.</small></label>
+</div>
+<p>Per sessie verbruiken we <strong>één Salvager</strong> (prijs bij Materialen). Heb je er meer nodig, verhoog dan de sessiekosten. De buffer verlaagt alleen je inkoopgrens.</p>
+<div class="scroll"><table><caption>Per item, in gold. Bracket wordt bepaald door ilvl.</caption><thead><tr><th>Itemlevel</th><th>Required level (bron)</th><th>Bruto materiaal-EV</th><th>Netto na AH</th><th>Salvager/item</th><th>Overig/item</th><th>Buffer/item</th><th>Maximaal betalen</th></tr></thead><tbody id="brackets"></tbody></table></div>
+<p class="note">Theorie, geen gegarandeerde winst. Disenchant-uitkomsten zijn willekeurig; vraag, daadwerkelijke verkoopprijs en verkooptijd verschillen. Ook 200 items garanderen geen winst. Het bronmodel bevat al de Salvager-aanname van 50% extra common/uncommon materialen.</p>
+<h3>Je sessie ramen</h3><div class="fields">
+<label for="bracket">Gekozen ilvl-bracket<select id="bracket"></select></label>
+<label for="buy">Werkelijke inkoopprijs per item (gold)<input id="buy" type="number" min="0" step="any" placeholder="Nog onbekend"><small>Leeg = geen kapitaal- of winstraming. 0 is wel geldig.</small></label></div>
+<div id="session" class="results" aria-live="polite"></div>
+<p><small>Ruwe materiaalwaarde is geen gerealiseerde omzet. De netto-EV veronderstelt verkoop tegen de ingevoerde prijzen na AH-kosten. De levensduur van 15 minuten belooft niet dat scannen, kopen, disenchanten en verkopen daarin passen.</small></p>
+</section>
+<section aria-labelledby="enchant-title"><h2 id="enchant-title">Enchanting 1 → 140: prijsbewust opbouwen</h2>
+<p>Leer Apprentice op characterlevel 1 (cap 75). Leer op <strong>characterlevel 10 en skill 50 Journeyman</strong> (cap 150), vóór je skill 75 bereikt. Voor 140 is characterlevel 20 / Expert niet nodig.</p>
+<p><strong>Blijf bij een trainer die Journeyman én de benodigde recepten aanbiedt.</strong> Alliance: Lucan Cordell (Stormwind), Gimble Thistlefuzz (Ironforge) of Taladan (Darnassus). Horde: Godan (Orgrimmar), Lavinia Crowe (Undercity) of Teg Dawnstrider (Thunder Bluff). Leer alleen de recepten die je hieronder gebruikt. <a href="https://www.wow-professions.com/forever/enchanting-trainers" target="_blank" rel="noopener noreferrer">Trainerlocaties</a>.</p>
+<p>Je bank-alt houdt Enchanting; de Alchemy/Leatherworking-productie hoort op je andere alts. Voor deze start hoef je geen tweede profession te levelen.</p>
+<p>Dit vergelijkt twee bekende receptkeuzes per keuzestap, geen universeel goedkoopste route. Gele stappen zijn ramingen: maak kleine batches en stop op het doel. Eigen materialen hebben ook waarde en tellen tegen de ingevoerde prijs mee.</p>
+<div class="fields"><label for="early">20–70 receptkeuze<select id="early"><option value="auto">Goedkoopste van beide bekende kosten</option><option value="dust">Chest · Strange Dust</option><option value="essence">Bracer · Lesser Magic Essence</option></select></label>
+<label for="late">130–140 receptkeuze<select id="late"><option value="auto">Goedkoopste van beide bekende kosten</option><option value="soul">Bracer · Soul Dust</option><option value="dust">Boots · Strange Dust</option></select></label>
+<label for="allowance">Training, recepten &amp; uitrusting (gold)<input id="allowance" type="number" min="0" step="any" value="0"><small>Handmatige toeslag; standaard 0 / niet inbegrepen.</small></label></div>
+<p id="choices"></p><ol id="route" class="route"></ol>
+<p>Gebruik dezelfde geschikte bracers, chest, cloak en boots steeds opnieuw: overschrijf de enchant, koop geen nieuw armor per craft. <span class="keep">KEEP: bewaar beide Runed Rods als gereedschap.</span></p>
+<p>Koop <strong>Mote of Magic en Copper Rod bij de Enchanting-vendor</strong>; vul de echte vendorprijs hieronder in en betaal niet onnodig de AH-prijs. Greater Magic Essence kan volgens de gids in 3 Lesser worden gesplitst. Vergelijk Greater/3 als inkooptip; dit plan rekent voor een sluitende lijst uitsluitend met directe Lesser-inkoop.</p>
+<div class="scroll"><table><caption>Shopping voor alleen 1–140, inclusief de twee tools. Geen veronderstelde vendoropbrengst.</caption><thead><tr><th>Materiaal</th><th>Aantal</th><th>Kosten (gold)</th></tr></thead><tbody id="shopping"></tbody></table></div><p id="budget" class="results" aria-live="polite"></p>
+<p>Disenchant van eigen geschikte greens vóór de eerste crafts kan de benodigde skillcrafts verminderen. Die items zijn niet automatisch gratis; deze vaste baseline trekt geen ongeprijsde loot af.</p>
+<h3>Op 140: gekochte Salvager gebruiken</h3>
+<p>Koop een kant-en-klare Salvager. Plaats de campfire <strong>buiten, bij je mailbox</strong>, houd de buff actief en zorg voor bagspace. Camping heeft een gedeelde cooldown van 1 uur en een levensduur van 15 minuten. Enchanting 140 is voor plaatsing, niet voor disenchant: volgens de Forever-gids kan Enchanting 1 al hoge items disenchanten. Dit is bronbewijs, geen eigen clienttest.</p>
+<details><summary>Optioneel zelf craften: waarom 140 dan niet genoeg is</summary>
+<p><a href="https://www.wowhead.com/forever/spell=1263056">Salvager-recept 1263056</a> vraagt Enchanting 140, een Runed Golden Rod en blueprint <a href="https://www.wowhead.com/forever/item=273103">273103</a> (drop); per craft 2 Vision Dust + 1 Lesser Nether Essence. De Runed Golden Rod (item 11130) is soulbound. <a href="https://www.wowhead.com/forever/spell=13628">Recept 13628</a> vraagt skill 150 en 1 Golden Rod (11128), 1 Iridescent Pearl (5500), 1 Greater Astral Essence en 1 Soul Dust. Dus: 140 voor een gekochte Salvager, 150 + eigen rod + blueprint voor zelf craften. Enchanting 300 en level 35 zijn hiervoor niet nodig.</p>
+<p id="setup-cost"></p><p>Blueprint en zelfcraft-setup zitten niet in het startbudget. Er worden geen gameplay- of aankoopacties geautomatiseerd.</p></details>
+</section>
+<section aria-labelledby="prices-title"><h2 id="prices-title">Materialen &amp; prijzen</h2>
+<p><a href="https://tradeskillmaster.com" target="_blank" rel="noopener noreferrer">Pricing data from TradeSkillMaster</a> · Forever EU regionaal marketValue. Copper ÷ 10.000 = gold. Geen realtime- of realmprijs.</p>
+<p id="price-status" role="status"></p>
+<p>Eigen prijs in <strong>gold per item</strong>: leeg gebruikt de bron; 0 is geldig. Ongeldige invoer blijft onbekend. Alleen eigen prijzen worden lokaal bewaard, apart van de oude app. De gedownloade HTML werkt ook met de vastgelegde snapshot en eigen prijzen.</p>
+<button id="reset" type="button">Herstel bronprijzen</button><div class="scroll"><table class="prices"><caption>TSM-links openen in een nieuw tabblad. Silverweergave staat bij elke bronprijs.</caption><thead><tr><th>Materiaal</th><th>Bron (gold / silver)</th><th>Eigen gold/item</th><th>Gebruikt (gold)</th></tr></thead><tbody id="prices"></tbody></table></div>
+</section>
+<section><details><summary>Bronmodel, exacte formules &amp; beperkingen</summary>
+<p>De originele Google XLSX is succesvol op formules uitgelezen. Dit is geen fit op HTML-uitkomsten. De relevante extractie, met acht formules en cached resultaten in silver, staat in <code>tests/fixtures/bank-sheet.json</code>; bron en exporthash staan ook in <code>docs/bank-alt-provenance.md</code>.</p>
+<p><a href="https://www.youtube.com/watch?v=mvM3CytJBIs" target="_blank" rel="noopener noreferrer">Video en maker</a> · <a href="https://docs.google.com/spreadsheets/d/1YMvue13jzUGrotf0-hQggVzdo4qHOu5_wlQImeWQNSA/edit" target="_blank" rel="noopener noreferrer">Originele Google Sheet</a>. De maker noemt 7.000 samples; dat is niet door ons geverifieerd. Geen onafhankelijk gevalideerd kansmodel of betrouwbaarheidsinterval.</p>
+<p>Alle rijen: som van onderstaande prijs × broncoëfficiënt, daarna × (1 − AH%/100). Coëfficiënten bevatten al de bronaanname van 50% extra common/uncommon materialen; geen extra ×1.5. De bron gebruikt letterlijk 0.33, niet 1/3.</p><ul id="formulas"></ul>
+<p>Inkoopgrens = netto-EV × (1 − buffer%/100) − Salvager/sessieaantal − overige kosten/sessieaantal. Een niet-positieve grens betekent ‘Niet inkopen’. Sessie-EV = aantal × (netto-EV − inkoopprijs) − Salvager − overige kosten. Kapitaal = aantal × inkoopprijs + sessiekosten.</p>
+<p>Enchanting: <a href="https://www.wow-professions.com/forever/enchanting-leveling-guide">Forever leveling guide</a> (aangeleverde kopie, route begrensd op 140), <a href="https://www.wow-professions.com/forever/disenchanting-guide">Disenchanting guide</a>, <a href="https://www.wowhead.com/forever/item=279985">Salvager</a> en <a href="https://www.wowhead.com/forever/spell=1307223">plaatsing</a>. De twee recepten voor 130–140 zijn in de aangeleverde Forever-records orange in dit bereik.</p>
+</details></section><footer>Community tool · broncontrole 26 november 2026 · Geen officiële Blizzard-tool</footer>
+</main>
+<script id="captured-prices" type="application/json">{"source":"https://public-data.tradeskillmaster.com/forever/eu/region/items.csv","subsetVersion":3,"requestedItemIds":[1210,6217,6338,10938,10939,10940,11082,11083,11084,11135,11137,11138,11139,11174,11175,11176,11177,11178,14343,14344,16203,16204,247786,273103,279985],"sourceLastModified":"Thu, 26 Nov 2026 00:37:29 GMT","fetchedAt":"2026-11-26T18:57:32.609690Z","items":[{"itemId":11083,"name":"Soul Dust","marketValue":462.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11137,"name":"Vision Dust","marketValue":970.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11176,"name":"Dream Dust","marketValue":2557.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":16204,"name":"Illusion Dust","marketValue":4271.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11082,"name":"Greater Astral Essence","marketValue":1813.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11135,"name":"Greater Mystic Essence","marketValue":2848.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11175,"name":"Greater Nether Essence","marketValue":12789.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":16203,"name":"Greater Eternal Essence","marketValue":28164.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11084,"name":"Large Glimmering Shard","marketValue":5556.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11138,"name":"Small Glowing Shard","marketValue":1218.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11139,"name":"Large Glowing Shard","marketValue":3883.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11177,"name":"Small Radiant Shard","marketValue":10375.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11178,"name":"Large Radiant Shard","marketValue":21171.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":14343,"name":"Small Brilliant Shard","marketValue":8239.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":14344,"name":"Large Brilliant Shard","marketValue":34127.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":10940,"name":"Strange Dust","marketValue":116.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":10938,"name":"Lesser Magic Essence","marketValue":178.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":10939,"name":"Greater Magic Essence","marketValue":456.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":247786,"name":"Mote of Magic","marketValue":15.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":6217,"name":"Copper Rod","marketValue":99.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":6338,"name":"Silver Rod","marketValue":652.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":1210,"name":"Shadowgem","marketValue":311.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":279985,"name":"Salvager","marketValue":8835.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":11174,"name":"Lesser Nether Essence","marketValue":4053.0,"updatedAt":"2026-11-25T00:57:43Z"},{"itemId":273103,"name":"Salvager blueprint","marketValue":54131.0,"updatedAt":"2026-11-25T00:57:43Z"}]}</script>
+<script>
+'use strict';
+// Source extraction and model scope: docs/bank-alt-provenance.md.
+const ITEMS = {"11083":"Soul Dust","11137":"Vision Dust","11176":"Dream Dust","16204":"Illusion Dust","11082":"Greater Astral Essence","11135":"Greater Mystic Essence","11175":"Greater Nether Essence","16203":"Greater Eternal Essence","11084":"Large Glimmering Shard","11138":"Small Glowing Shard","11139":"Large Glowing Shard","11177":"Small Radiant Shard","11178":"Large Radiant Shard","14343":"Small Brilliant Shard","14344":"Large Brilliant Shard","10940":"Strange Dust","10938":"Lesser Magic Essence","10939":"Greater Magic Essence","247786":"Mote of Magic","6217":"Copper Rod","6338":"Silver Rod","1210":"Shadowgem","279985":"Salvager","11174":"Lesser Nether Essence","273103":"Salvager blueprint"};
+const SOURCE='https://public-data.tradeskillmaster.com/forever/eu/region/items.csv';
+const STORAGE='forever-bank-alt-prices-v1';
+const BRACKETS=[
+ {ilvl:'26–30',required:'21–25',terms:[[11083,1.5],[11082,.4],[11084,.05]]},
+ {ilvl:'31–35',required:'26–30',terms:[[11083,3],[11135,.33*.4],[11138,.05]]},
+ {ilvl:'36–40',required:'31–35',terms:[[11137,1.5],[11135,.4],[11139,.05]]},
+ {ilvl:'41–45',required:'36–40',terms:[[11137,3],[11175,.33*.4],[11177,.05]]},
+ {ilvl:'46–50',required:'41–45',terms:[[11176,1.5],[11175,.4],[11178,.05]]},
+ {ilvl:'51–55',required:'46–50',terms:[[11176,3],[16203,.33*.4],[14343,.05]]},
+ {ilvl:'56–60',required:'51–55',terms:[[16204,1.5],[16203,.4],[14344,.05]]},
+ {ilvl:'61–65',required:'56–60',terms:[[16204,3],[16203,.6],[14344,.05]]}
+];
+function number(value,max=Infinity,integer=false){
+ if(typeof value!=='string'&&typeof value!=='number')return null;
+ if(String(value).trim()==='')return null;
+ const n=Number(value);return Number.isFinite(n)&&n>=0&&n<=Math.min(max,1e12)&&(!integer||Number.isInteger(n))?n:null;
+}
+function timestamp(value){
+ if(typeof value!=='string')return false;
+ const m=value.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/);
+ if(!m||!Number.isFinite(Date.parse(value)))return false;
+ const [,year,month,day,hour,minute,second]=m.map(Number);
+ const days=new Date(Date.UTC(year,month,0)).getUTCDate();
+ return month>=1&&month<=12&&day>=1&&day<=days&&hour<24&&minute<60&&second<60;
+}
+function validateSnapshot(data){
+ if(!data||data.source!==SOURCE||!timestamp(data.fetchedAt)||typeof data.sourceLastModified!=='string'||!Number.isFinite(Date.parse(data.sourceLastModified))||!Array.isArray(data.items))throw Error('Ongeldige bronmetadata');
+ const prices={},seen=new Set(),times=new Set();
+ for(const item of data.items){
+  if(!Number.isInteger(item.itemId)||seen.has(item.itemId)||typeof item.marketValue!=='number'||number(item.marketValue)===null||!timestamp(item.updatedAt))throw Error('Ongeldige of dubbele bronrij');
+  seen.add(item.itemId);times.add(item.updatedAt);
+  if(Object.hasOwn(ITEMS,item.itemId))prices[item.itemId]=item.marketValue/10000;
+ }
+ if(times.size!==1)throw Error('Ontbrekende of verschillende brontijden');
+ return {prices,updatedAt:[...times][0],fetchedAt:data.fetchedAt,lastModified:data.sourceLastModified};
+}
+function readOverrides(storage){
+ try{const value=JSON.parse(storage.getItem(STORAGE)||'{}'),out={};if(!value||typeof value!=='object'||Array.isArray(value))return out;
+ for(const [id,price] of Object.entries(value))if(Object.hasOwn(ITEMS,id)&&typeof price==='number'&&number(price)!==null)out[id]=price;return out}catch{return {}}
+}
+function saveOverrides(storage,overrides){try{storage.setItem(STORAGE,JSON.stringify(overrides))}catch{}}
+function priceOf(id,source,overrides,invalid=new Set()){
+ if(invalid.has(String(id)))return null;
+ const value=Object.hasOwn(overrides,id)?overrides[id]:source[id];return typeof value==='number'&&number(value)!==null?value:null;
+}
+function sumCost(materials,price){let total=0;for(const [id,count] of Object.entries(materials)){const p=price(id);if(p===null)return null;total+=p*count}return total}
+function evaluate(index,price,settings){
+ const row=BRACKETS[index];if(!row)return null;
+ const gross=sumCost(Object.fromEntries(row.terms),price),{fee,buffer,count,other}=settings;
+ const net=gross!==null&&fee!==null?gross*(1-fee/100):null;
+ const salvager=price(279985),validCount=count!==null&&count>=1;
+ const consumable=validCount&&salvager!==null?salvager/count:null;
+ const allocated=validCount&&other!==null?other/count:null;
+ const reserve=net!==null&&buffer!==null?net*buffer/100:null;
+ const ceiling=[net,reserve,consumable,allocated].every(v=>v!==null)?net-reserve-consumable-allocated:null;
+ return {gross,net,consumable,allocated,reserve,ceiling};
+}
+function sessionEstimate(index,price,settings,buy){
+ const ev=evaluate(index,price,settings),salvager=price(279985),n=settings.count,other=settings.other;
+ const costs=salvager!==null&&other!==null?salvager+other:null;
+ return {raw:n!==null&&n>=1&&ev?.gross!==null?n*ev.gross:null,
+ profit:n!==null&&n>=1&&ev?.net!==null&&buy!==null&&costs!==null?n*(ev.net-buy)-costs:null,
+ capital:n!==null&&n>=1&&buy!==null&&costs!==null?n*buy+costs:null};
+}
+function choose(mode,a,b,costA,costB){return mode==='auto'?(costA===null||costB===null?null:costA<=costB?a:b):mode===a||mode===b?mode:null}
+function routePlan(price,early='auto',late='auto'){
+ const e=choose(early,'dust','essence',price(10940),price(10938));
+ const sd=price(10940),soul=price(11083),l=choose(late,'soul','dust',soul,sd===null?null:4*sd);
+ const step=(from,to,count,spell,name,materials,note='')=>({from,to,count,spell,name,materials,note});
+ const steps=[step(1,2,1,7421,'Runed Copper Rod',{6217:1,247786:1},'KEEP · tool'),step(2,20,18,7418,'Bracer – Inferior Stamina',{247786:1}),
+ e?step(20,70,50,e==='dust'?7420:7428,e==='dust'?'Chest – Inferior Stamina':'Bracer – Minor Deflect',e==='dust'?{10940:1}:{10938:1},'Bronraming'):step(20,70,50,null,'Kies een recept: prijsvergelijking onbekend',{},'Onvolledig'),
+ step(70,85,21,7420,'Chest – Inferior Stamina',{10940:1},'Geel · raming'),step(85,100,15,7457,'Bracer – Minor Stamina',{10940:2}),step(100,109,9,7771,'Cloak – Minor Protection',{10940:2}),
+ step(109,110,1,7795,'Runed Silver Rod',{6338:1,10940:3,10938:4,1210:1},'KEEP · tool'),step(110,130,29,7771,'Cloak – Minor Protection',{10940:2},'Geel · raming; stop op 130'),
+ l?step(130,140,10,l==='soul'?13501:7863,l==='soul'?'Bracer – Lesser Stamina':'Boots – Minor Stamina',l==='soul'?{11083:1}:{10940:4},'Orange · stop op 140'):step(130,140,10,null,'Kies een recept: prijsvergelijking onbekend',{},'Onvolledig')];
+ const materials={};for(const s of steps)for(const [id,n] of Object.entries(s.materials))materials[id]=(materials[id]||0)+n*s.count;
+ const total=e&&l?sumCost(materials,price):null;return {steps,materials,total,complete:!!(e&&l),early:e,late:l};
+}
+globalThis.BankAlt={ITEMS,BRACKETS,STORAGE,SOURCE,number,timestamp,validateSnapshot,readOverrides,saveOverrides,priceOf,sumCost,evaluate,sessionEstimate,routePlan};
+if(typeof document!=='undefined'){
+ const $=id=>document.getElementById(id),nf=new Intl.NumberFormat('nl-NL',{maximumFractionDigits:4});
+ const fmt=n=>n===null?'Onbekend':nf.format(n)+' g';
+ let storage;try{storage=globalThis.localStorage}catch{}
+ let source={},meta=null,fallback=true,overrides=readOverrides(storage),invalid=new Set();
+ const price=id=>priceOf(id,source,overrides,invalid);
+ const priceCells=new Map(),sourceCells=new Map(),inputs=new Map(),bracketCells=[];
+ function cell(row,text=''){const td=document.createElement('td');td.textContent=text;row.append(td);return td}
+ function link(text,url){const a=document.createElement('a');a.textContent=text;a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}
+ for(const [id,name] of Object.entries(ITEMS)){
+  const tr=document.createElement('tr'),nameCell=cell(tr);nameCell.append(link(name,'https://tradeskillmaster.com/forever/eu/items/'+id));
+  if(id==='247786'||id==='6217'){const tip=document.createElement('small');tip.textContent='Vendor aanbevolen · voer echte prijs in';nameCell.append(tip)}
+  if(['11174','273103'].includes(id)){const tip=document.createElement('small');tip.textContent='Alleen optionele zelfcraft';nameCell.append(tip)}
+  sourceCells.set(id,cell(tr));const inputCell=cell(tr),input=document.createElement('input');input.type='number';input.min='0';input.step='any';input.className='price-input';input.id='price-'+id;input.setAttribute('aria-label',name+' eigen prijs in gold');input.placeholder='Bronprijs';input.value=Object.hasOwn(overrides,id)?overrides[id]:'';inputCell.append(input);inputs.set(id,input);priceCells.set(id,cell(tr));$('prices').append(tr);
+  input.addEventListener('input',()=>{
+   const n=number(input.value),bad=input.validity.badInput;
+   if(input.value.trim()===''&&!bad){delete overrides[id];invalid.delete(id)}
+   else if(n===null||bad){invalid.add(id);delete overrides[id]}
+   else{overrides[id]=n;invalid.delete(id)}
+   input.setAttribute('aria-invalid',String(invalid.has(id)));saveOverrides(storage,overrides);render();
+  });
+ }
+ BRACKETS.forEach((b,i)=>{
+  const option=document.createElement('option');option.value=String(i);option.textContent='ilvl '+b.ilvl;$('bracket').append(option);
+  const tr=document.createElement('tr');cell(tr,b.ilvl);cell(tr,b.required);const cells=Array.from({length:6},()=>cell(tr));bracketCells.push(cells);$('brackets').append(tr);
+  const li=document.createElement('li');li.textContent='ilvl '+b.ilvl+': '+b.terms.map(([id,c])=>ITEMS[id]+' × '+c).join(' + ')+(i===1||i===3||i===5?' (essence: 0.33 × 0.4)':'');$('formulas').append(li);
+ });$('bracket').value='0';
+ function inputNumber(id,max=Infinity,integer=false){const el=$(id),n=el.validity.badInput?null:number(el.value,max,integer);el.setAttribute('aria-invalid',String(n===null&&!(id==='buy'&&el.value===''&&!el.validity.badInput)));return n}
+ function render(){
+  const settings={fee:inputNumber('fee',100),buffer:inputNumber('buffer',100),count:inputNumber('count',Infinity,true),other:inputNumber('other')};
+  if(settings.count===0){settings.count=null;$('count').setAttribute('aria-invalid','true')}
+  for(const [id] of Object.entries(ITEMS)){
+   sourceCells.get(id).textContent=Object.hasOwn(source,id)?fmt(source[id])+' / '+nf.format(source[id]*100)+' s':'Onbekend';
+   priceCells.get(id).textContent=fmt(price(id))+(invalid.has(id)?' · ongeldige invoer':Object.hasOwn(overrides,id)?' · eigen':' · bron');
+  }
+  BRACKETS.forEach((b,i)=>{const ev=evaluate(i,price,settings);[ev.gross,ev.net,ev.consumable,ev.allocated,ev.reserve,ev.ceiling].forEach((v,j)=>bracketCells[i][j].textContent=j===5&&v!==null&&v<=0?'Niet inkopen':fmt(v))});
+  const selected=Number($('bracket').value),selectedEV=evaluate(selected,price,settings);
+  const s=sessionEstimate(selected,price,settings,inputNumber('buy'));
+  $('session').replaceChildren();const ceiling=document.createElement('p');ceiling.textContent='Inkoopgrens ilvl '+BRACKETS[selected].ilvl+': '+(selectedEV.ceiling!==null&&selectedEV.ceiling<=0?'Niet inkopen':fmt(selectedEV.ceiling));$('session').append(ceiling);for(const [label,value] of [['Ruwe verwachte materiaalwaarde',s.raw],['Benodigd kapitaal incl. sessiekosten',s.capital],['Verwachte winst na AH en sessiekosten',s.profit]]){const p=document.createElement('p');p.textContent=label+': '+fmt(value);$('session').append(p)}
+  const plan=routePlan(price,$('early').value,$('late').value);
+  $('choices').textContent='20–70: 1 Strange Dust '+fmt(price(10940))+' versus 1 Lesser Magic '+fmt(price(10938))+'. 130–140: 1 Soul Dust '+fmt(price(11083))+' versus 4 Strange Dust '+fmt(price(10940)===null?null:4*price(10940))+'. '+(!plan.complete?'Kies handmatig bij onbekende vergelijkingsprijzen.':'Gekozen: '+(plan.early==='dust'?'Strange Dust':'Lesser Magic')+' / '+(plan.late==='soul'?'Soul Dust':'Strange Dust')+'.');
+  $('route').replaceChildren();for(const s of plan.steps){const li=document.createElement('li');li.append(document.createTextNode(s.from+' → '+s.to+': '+s.count+'× '));if(s.spell)li.append(link(s.name,'https://www.wowhead.com/forever/spell='+s.spell));else li.append(document.createTextNode(s.name));li.append(document.createTextNode(' · '+Object.entries(s.materials).map(([id,n])=>s.count*n+' '+ITEMS[id]).join(' + ')+' · '+s.note));$('route').append(li)}
+  $('shopping').replaceChildren();let known=0,covered=0;
+  for(const [id,n] of Object.entries(plan.materials)){const tr=document.createElement('tr'),p=price(id);cell(tr,ITEMS[id]);cell(tr,String(n));cell(tr,fmt(p===null?null:p*n));$('shopping').append(tr);if(p!==null){known+=p*n;covered++}}
+  const allowance=inputNumber('allowance'),total=plan.total===null||allowance===null?null:plan.total+allowance;
+  $('budget').textContent='Materiaalraming: '+fmt(plan.total)+'. Bekend subtotaal: '+fmt(known)+' ('+covered+'/'+Object.keys(plan.materials).length+' prijzen; '+(plan.complete?'alle receptkeuzes bekend':'onvolledige receptkeuze')+'). Met handmatige toeslag: '+fmt(total)+'. Gele crafts kunnen meer materiaal vragen.';
+  $('setup-cost').textContent='Alleen verbruik per zelfcraft: '+fmt(sumCost({11137:2,11174:1},price))+'. Blueprint TSM-referentie: '+fmt(price(273103))+'. Rod, training en overige setup niet hierin inbegrepen.';
+ }
+ for(const id of ['fee','buffer','count','other','buy','allowance'])$(id).addEventListener('input',render);
+ for(const id of ['bracket','early','late'])$(id).addEventListener('change',render);
+ $('reset').addEventListener('click',()=>{overrides={};invalid.clear();saveOverrides(storage,overrides);for(const input of inputs.values()){input.value='';input.setAttribute('aria-invalid','false')}render()});
+ function receive(data,isFallback){const validated=validateSnapshot(data);source=validated.prices;meta=validated;fallback=isFallback;
+  $('price-status').textContent=(fallback?'OFFLINE FALLBACK · vastgelegde snapshot, kan verouderen. ':'Online prices.json · voorkeur boven de ingebedde snapshot. ')+'TSM-brontijd updatedAt: '+meta.updatedAt+' · opgehaald/verwerkt fetchedAt: '+meta.fetchedAt+' · HTTP Last-Modified: '+meta.lastModified+'. '+Object.keys(source).length+'/'+Object.keys(ITEMS).length+' prijzen. '+(Date.now()-Date.parse(meta.updatedAt)>48*3600000?'Ouder dan 48 uur. ':'')+'Geen realtimeprijzen.';render();
+ }
+ try{receive(JSON.parse($('captured-prices').textContent),true)}catch{$('price-status').textContent='Geen geldige vastgelegde snapshot. Gebruik eigen prijzen.';render()}
+ if(location.protocol==='http:'||location.protocol==='https:')fetch('prices.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('HTTP');return r.json()}).then(data=>receive(data,false)).catch(()=>{$('price-status').textContent+=' Online bron niet beschikbaar of ongeldig; fallback behouden.'});
+}
+</script></body></html>

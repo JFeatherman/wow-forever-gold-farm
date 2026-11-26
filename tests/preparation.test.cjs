@@ -85,7 +85,7 @@ test('buffer rounds per alt after intermediates, multi-alt math independent of f
  app.set('prep-alts',3);app.set('prep-buffer',10);assert.equal(app.elements.get('alts').value,'5');assert.equal(app.json('currentPreparation().plan').rows.find(r=>r.id===8170).batch,396);
 });
 test('actual snapshot, optional missing/invalid data, partial costs and complete price coverage',()=>{
- const app=setup();assert.match(app.text('prep-batch'),/Onbekend/);app.load();assert.match(app.text('prep-price-status'),/2026-11-23T00:59:07Z/);assert.doesNotMatch(app.text('prep-batch'),/Onbekend/);
+ const app=setup();assert.match(app.text('prep-batch'),/Onbekend/);app.load();assert.ok(app.text('prep-price-status').includes(realSnapshot.items[0].updatedAt));assert.doesNotMatch(app.text('prep-batch'),/Onbekend/);
  assert.ok(app.json('currentPreparation().plan').rows.every(r=>app.elements.get('prep-price-'+r.id).placeholder!=='Onbekend'));
  const partial=structuredClone(realSnapshot);partial.items=partial.items.filter(item=>item.itemId!==765);app.load(partial);assert.match(app.text('prep-batch'),/Onbekend.*bekend deel/);assert.equal(app.elements.get('prep-price-765').placeholder,'Onbekend');
  app.run('validateSnapshot('+JSON.stringify(partial)+')'); // Original seven remain sufficient.

@@ -30,8 +30,22 @@ PREPARATION_ITEMS = {
     8838: 'Sungrass', 3575: 'Iron Bar', 9262: 'Black Vitriol',
     8831: 'Purple Lotus', 4625: 'Firebloom'
 }
-PUBLISHED_ITEMS = {**ITEMS, **PREPARATION_ITEMS}
-SUBSET_VERSION = 2
+# Optional bank-alt materials, route to Enchanting 140 and setup references.
+BANK_ITEMS = {
+    11083: 'Soul Dust', 11137: 'Vision Dust', 11176: 'Dream Dust',
+    16204: 'Illusion Dust', 11082: 'Greater Astral Essence',
+    11135: 'Greater Mystic Essence', 11175: 'Greater Nether Essence',
+    16203: 'Greater Eternal Essence', 11084: 'Large Glimmering Shard',
+    11138: 'Small Glowing Shard', 11139: 'Large Glowing Shard',
+    11177: 'Small Radiant Shard', 11178: 'Large Radiant Shard',
+    14343: 'Small Brilliant Shard', 14344: 'Large Brilliant Shard',
+    10940: 'Strange Dust', 10938: 'Lesser Magic Essence',
+    10939: 'Greater Magic Essence', 247786: 'Mote of Magic',
+    6217: 'Copper Rod', 6338: 'Silver Rod', 1210: 'Shadowgem',
+    279985: 'Salvager', 11174: 'Lesser Nether Essence', 273103: 'Salvager blueprint'
+}
+PUBLISHED_ITEMS = {**ITEMS, **PREPARATION_ITEMS, **BANK_ITEMS}
+SUBSET_VERSION = 3
 
 HEADERS = ['itemId', 'name', 'marketValue', 'historical', 'avgSalePrice', 'saleRate', 'soldPerDay', 'updatedAt']
 

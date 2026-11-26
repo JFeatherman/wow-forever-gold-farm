@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/1YMvue13jzUGrotf0-hQggVzdo4qHOu5_wlQImeWQNSA/edit",
+  "exportSha256": "348869f81a19fd3973dea7ae56642985e480d0e8c94cef722f38df6e5df8fc27",
+  "pricesSilver": {
+    "Soul Dust": 4.33,
+    "Vision Dust": 8.0,
+    "Dream Dust": 21.0,
+    "Illusion Dust": 31.0,
+    "Greater Astral Essence": 13.0,
+    "Greater Mystic Essence": 31.0,
+    "Greater Nether Essence": 104.0,
+    "Greater Eternal Essence": 260.0,
+    "Large Glimmering Shard": 32.0,
+    "Small Glowing Shard": 10.0,
+    "Large Glowing Shard": 31.0,
+    "Small Radiant Shard": 71.0,
+    "Large Radiant Shard": 184.0,
+    "Small Brilliant Shard": 74.0,
+    "Large Brilliant Shard": 283.0
+  },
+  "rows": [
+    {
+      "cell": "H15",
+      "requiredLevel": "21-25",
+      "itemLevel": "26-30",
+      "formula": "((D14*1.5)+(D18*0.4)+(D22*0.05))*0.95",
+      "expectedSilver": 12.63025
+    },
+    {
+      "cell": "H16",
+      "requiredLevel": "26-30",
+      "itemLevel": "31-35",
+      "formula": "((D14*3)+(D19*0.33*0.4)+(D23*0.05))*0.95",
+      "expectedSilver": 16.7029
+    },
+    {
+      "cell": "H17",
+      "requiredLevel": "31-35",
+      "itemLevel": "36-40",
+      "formula": "((D15*1.5)+(D19*0.4)+(D24*0.05))*0.95",
+      "expectedSilver": 24.6525
+    },
+    {
+      "cell": "H18",
+      "requiredLevel": "36-40",
+      "itemLevel": "41-45",
+      "formula": "((D15*3)+(D20*0.33*0.4)+(D25*0.05))*0.95",
+      "expectedSilver": 39.2141
+    },
+    {
+      "cell": "H19",
+      "requiredLevel": "41-45",
+      "itemLevel": "46-50",
+      "formula": "((D16*1.5)+(D20*0.4)+(D26*0.05))*0.95",
+      "expectedSilver": 78.185
+    },
+    {
+      "cell": "H20",
+      "requiredLevel": "46-50",
+      "itemLevel": "51-55",
+      "formula": "((D16*3)+(D21*0.33*0.4)+(D27*0.05))*0.95",
+      "expectedSilver": 95.969
+    },
+    {
+      "cell": "H21",
+      "requiredLevel": "51-55",
+      "itemLevel": "56-60",
+      "formula": "((D17*1.5)+(D21*0.4)+(D28*0.05))*0.95",
+      "expectedSilver": 156.4175
+    },
+    {
+      "cell": "H22",
+      "requiredLevel": "56-60",
+      "itemLevel": "61-65",
+      "formula": "((D17*3)+(D21*0.6)+(D28*0.05))*0.95",
+      "expectedSilver": 249.9925
+    }
+  ]
+}
